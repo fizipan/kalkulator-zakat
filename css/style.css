@@ -1,0 +1,43 @@
+#page-content-wrapper {
+    background: #f5f5fb;
+    min-width: 82vw;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    transition: margin 0.25s ease-out;
+}
+
+
+.sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+.list-group {
+    width: 15rem;
+}
+
+.list-group-item {
+    border: 0;
+    font-size: 16px;
+    color: #c5c5c5;
+}
+
+
+a:hover {
+    background: linear-gradient(270deg,
+            rgba(146, 88, 255, 0.32) 2%,
+            rgba(255, 255, 255, 0) 100%) !important;
+    border-right: 4px solid #8a58ff !important;
+    color: #0c0d36
+}
+
+.form-control {
+    background-color: #f3f3f3
+}
+
+.section-content {
+    margin-top: 20px;
+    margin-left: 20px;
+}
