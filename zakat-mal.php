@@ -15,7 +15,7 @@ if (isset($_POST["hitung"])) {
         <h2>Zakat Mal</h2>
 
         <?php if (isset($_POST["hitung"])) : ?>
-            <div class="alert alert-success alert-dismissible fade show w-50" role="alert">Zakat Penghasilan
+            <div class="alert alert-success alert-dismissible fade show w-50" role="alert">Zakat Mal
                 <strong>Rp. <?= number_format(zakatMal($nilaiEmas, $uang, $aset, $hutang)) . ",-";  ?></strong>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
